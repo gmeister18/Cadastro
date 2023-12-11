@@ -5,7 +5,7 @@
     <div class="row container">
         <p>&nbsp;</p>
         <form action="BD/create.php" method="POST" class="col s12">
-          <fieldset class="formulario" style="padding: 15px">
+          <fieldset class="formulario" style="padding: 20px">
               <legend>
                   <img src="img/user.png" alt="[image]" width="150">
               </legend>
