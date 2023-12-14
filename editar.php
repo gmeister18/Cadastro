@@ -33,13 +33,14 @@ endwhile;
                   <img src="img/user.png" alt="[image]" width="150">
               </legend>
             <h5 class="light center">Alteração</h5>
+            
 
             <?php include 'includes/edit_inputs.inc.php'; ?>
             <!-- BOTÕES -->
             <div class="input-field col s12">
                 <input type="submit" value="alterar" class="btn blue">
                 <a href="consultas.php" class="btn red">cancelar</a>
-                           
+
             </div>
           </fieldset>
         </form>     
