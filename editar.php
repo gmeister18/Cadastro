@@ -35,6 +35,7 @@ endwhile;
             <h5 class="light center">Alteração</h5>    
                                      
             
+
             
 
             <?php include 'includes/edit_inputs.inc.php'; ?>
