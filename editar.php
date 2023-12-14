@@ -53,13 +53,12 @@ $conferente = $registros['conferente'];
         <label for="fornecedor">Fornecedor</label>
         <input type="text" name="fornecedor" id="fornecedor" value="<?php echo $fornecedor; ?>" required>
       </div>
-      
+
 
       <div class="input-field col s12">
         <label for="conferente">Conferente</label>
         <input type="text" name="conferente" id="conferente" value="<?php echo $conferente; ?>" required>
       </div>
-
       <div class="input-field col s12">
         <a href="consultas.php" class="btn red">cancelar</a>
         <button type="submit" class="btn blue">alterar</button>
