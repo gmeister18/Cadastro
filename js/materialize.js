@@ -15,6 +15,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 /*! cash-dom 1.3.5, https://github.com/kenwheeler/cash @license MIT */
 (function (factory) {
+  
   window.cash = factory();
 })(function () {
   var doc = document,
