@@ -38,7 +38,6 @@ endwhile;
 
 
 
-
             <?php include 'includes/edit_inputs.inc.php'; ?>
             <!-- BOTÕES -->
             <div class="input-field col s12">
