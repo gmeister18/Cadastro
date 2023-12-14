@@ -18,7 +18,6 @@
                 <input type="reset" value="limpar" class="btn red">
             </div>
           </fieldset>
-          
         </form>
     </div>
  <?php include_once 'includes/footer.inc.php' ?>
