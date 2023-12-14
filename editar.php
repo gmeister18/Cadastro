@@ -7,8 +7,7 @@
 <div class="row container">
     <div class="col s12">
         <h5 class="light">Edição de Registros</h5><hr>
-    </div>
-    
+    </div>   
 </div>
 
 <?php
