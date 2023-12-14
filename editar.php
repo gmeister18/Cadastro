@@ -41,7 +41,6 @@ endwhile;
                 <a href="consultas.php" class="btn red">cancelar</a>
             </div>
           </fieldset>
-        </form>
-        
+        </form>     
     </div>
 <?php include_once 'includes/footer.inc.php' ?>
