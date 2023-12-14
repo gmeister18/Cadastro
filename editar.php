@@ -40,6 +40,7 @@ endwhile;
                 <input type="submit" value="alterar" class="btn blue">
                 <a href="consultas.php" class="btn red">cancelar</a>
                 
+
             </div>
           </fieldset>
         </form>     
