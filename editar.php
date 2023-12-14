@@ -38,8 +38,7 @@ endwhile;
             <!-- BOTÕES -->
             <div class="input-field col s12">
                 <input type="submit" value="alterar" class="btn blue">
-                <a href="consultas.php" class="btn red">cancelar</a>
-                
+                <a href="consultas.php" class="btn red">cancelar</a>           
 
             </div>
           </fieldset>
