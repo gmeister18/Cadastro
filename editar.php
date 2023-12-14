@@ -16,6 +16,7 @@ include_once 'BD/conexao.php';
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 $_SESSION['id'] = $id;
 
+
 $registros = $link->query("SELECT * FROM clientes WHERE id='$id'")->fetch_assoc();
 
 $nome = $registros['nome'];
@@ -47,7 +48,7 @@ $conferente = $registros['conferente'];
       <div class="input-field col s12">
         <label for="telefone">Telefone</label>
         <input type="tel" name="telefone" id="telefone" value="<?php echo $telefone; ?>" required>
-        
+
       </div>  
 
 
