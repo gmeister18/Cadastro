@@ -10,7 +10,7 @@
         </form>
         
         <table class="striped">
-            <thead>
+        <thead>
                 <tr>
                     <th>Nome</th>
                     <th>Email</th>
