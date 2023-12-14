@@ -7,7 +7,7 @@
     <div class="col s12">
         <h5 class="light">Pesquisa de clientes e fornecedores</h5><hr>
         <p class="light">
-        Você pesquisou por
+        Você pesquisou por:
             <?php 
                 include_once 'BD/conexao.php';
                 $busca = $_GET['pesquisa'];
