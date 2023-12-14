@@ -47,9 +47,10 @@ $conferente = $registros['conferente'];
       <div class="input-field col s12">
         <label for="telefone">Telefone</label>
         <input type="tel" name="telefone" id="telefone" value="<?php echo $telefone; ?>" required>
+        
       </div>  
 
-      
+
 
       <div class="input-field col s12">
         <label for="fornecedor">Fornecedor</label>
