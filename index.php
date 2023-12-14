@@ -4,6 +4,7 @@
     <!-- FORMULARIO DE CADASTRO -->
     <div class="row container"> 
         <p>&nbsp;</p>
+        
         <form action="BD/create.php" method="POST" class="col s12">
           <fieldset class="formulario" style="padding: 20px">
               <legend>
@@ -17,7 +18,7 @@
                 <input type="submit" value="cadastrar" class="btn blue" id="submit">
                 <input type="reset" value="limpar" class="btn red">
             </div>
-            
+
           </fieldset>
         </form>
     </div>
