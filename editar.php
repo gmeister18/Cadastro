@@ -8,6 +8,7 @@
     <div class="col s12">
         <h5 class="light">Edição de Registros</h5><hr>
     </div>
+    
 </div>
 
 <?php
