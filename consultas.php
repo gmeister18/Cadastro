@@ -5,6 +5,7 @@
     <div class="col s12">
         <h5 class="light">Consultas</h5><hr>  
         
+        
         <form action="busca.php" method="GET"> 
             <input type="text" name="pesquisa" size="50" placeholder="Nome cliente" autofocus> 
         </form>
