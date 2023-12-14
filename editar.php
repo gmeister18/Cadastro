@@ -36,9 +36,10 @@ endwhile;
                                      
             
 
-
-
             
+
+
+
 
 
             <?php include 'includes/edit_inputs.inc.php'; ?>
