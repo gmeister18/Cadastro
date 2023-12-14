@@ -3,6 +3,9 @@
     <i class="material-icons prefix">account_circle</i>
     <input type="text" name="nome" id="nome" value="<?php echo $nome ?>" maxlength="40" required autofocus>
     <label for="nome">Nome do Cliente</label>
+
+
+    
 </div>
 <!-- CAMPO EMAIL -->
 <div class="input-field col s12">
