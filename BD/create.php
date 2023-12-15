@@ -4,9 +4,9 @@ include_once 'conexao.php';
 
 $nome           = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 $email          = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-$telefone        = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_NUMBER_INT);
-$fornecedor      = filter_input(INPUT_POST, 'fornecedor', FILTER_SANITIZE_SPECIAL_CHARS);
-$conferente       = filter_input(INPUT_POST, 'conferente', FILTER_SANITIZE_SPECIAL_CHARS);
+$telefone       = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_NUMBER_INT);
+$fornecedor     = filter_input(INPUT_POST, 'fornecedor', FILTER_SANITIZE_SPECIAL_CHARS);
+$conferente     = filter_input(INPUT_POST, 'conferente', FILTER_SANITIZE_SPECIAL_CHARS);
 
 $querySelect = $link->query("SELECT email FROM clientes");
 $array_emails = [];
