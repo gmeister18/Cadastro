@@ -11,6 +11,7 @@
                   <img src="img/user.png" alt="[image]" width="150">
               </legend>
             <h5 class="light center">Cadastro de Clientes</h5>
+          
 
             <?php include 'includes/input_fields.inc.php'; ?>
             <!-- BOTÕES -->
