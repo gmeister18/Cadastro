@@ -12,7 +12,6 @@
               </legend>
             <h5 class="light center">Cadastro de Clientes</h5>
           
-
             <?php include 'includes/input_fields.inc.php'; ?>
             <!-- BOTÕES -->
             <div class="input-field col s12">
