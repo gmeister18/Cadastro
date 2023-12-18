@@ -8,7 +8,7 @@ $telefone       = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_NUMBER_IN
 $fornecedor     = filter_input(INPUT_POST, 'fornecedor', FILTER_SANITIZE_SPECIAL_CHARS);
 $conferente     = filter_input(INPUT_POST, 'conferente', FILTER_SANITIZE_SPECIAL_CHARS);
 
-$querySelect = $link->query("SELECT email FROM clientes");
+  $querySelect = $link->query("SELECT email FROM clientes");
 $array_emails = [];
 
 while($emails = $querySelect->fetch_assoc()):
