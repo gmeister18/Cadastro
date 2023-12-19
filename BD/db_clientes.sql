@@ -8,7 +8,7 @@
 -- versão do PHP: 8.0.5
 
   SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-  
+
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -36,7 +36,7 @@ CREATE TABLE `clientes` (
   `fornecedor` varchar(300) DEFAULT NULL,
   `conferente` varchar(300) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
+    `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
