@@ -37,7 +37,7 @@ CREATE TABLE `clientes` (
   `conferente` varchar(300) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
     `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT  CHARSET=utf8mb4;
 
 --
 -- Extraindo dados da tabela `clientes`
