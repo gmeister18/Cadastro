@@ -11,7 +11,6 @@ $conferente     = filter_input(INPUT_POST, 'conferente', FILTER_SANITIZE_SPECIAL
 
   $querySelect = $link->query("SELECT email FROM clientes");
   $array_emails = [];
-  
 
 while($emails = $querySelect->fetch_assoc()):
     $emails_existentes = $emails['email'];
