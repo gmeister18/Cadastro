@@ -35,6 +35,8 @@
                             SELECT * FROM clientes WHERE nome LIKE '%$busca%' ".
                             "OR fornecedor LIKE  '%$busca%'
                         ");
+
+                        
                         while($registros = $querySelect->fetch_assoc()):
                         $id           = $registros['id'];
                         $nome         = $registros['nome'];
