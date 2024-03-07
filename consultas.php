@@ -10,7 +10,6 @@
             
             <input type="text" name="pesquisa" size="50" placeholder="Nome cliente" autofocus> 
         </form>
-        
         <table class="striped">
             <thead>
                 <tr>
