@@ -3,6 +3,7 @@
 
 <div class="row container">
     <div class="col s12">
+        
         <h5 class="light">Consultas</h5><hr>  
         
         <form action="busca.php" method="GET">
