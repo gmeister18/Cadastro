@@ -45,6 +45,7 @@
                         $fornecedor   = $registros['fornecedor'];
                         $conferente   = $registros['conferente'];
                         $created      = $registros['created_at'];
+                         
 
                         echo "
                         <tr>
